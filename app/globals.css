@@ -41,6 +41,18 @@
   animation: waveRight 5s ease-in-out infinite;
 }
 
+.showScroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #010125;
+  border-radius: 10px;
+}
+
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
