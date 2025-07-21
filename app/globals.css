@@ -16,20 +16,20 @@
 @keyframes waveLeft {
   0%,
   100% {
-    transform: translateX(-10%) rotate(15deg);
+    transform: translateX(-10%) rotate(30deg);
   }
   50% {
-    transform: translateX(10%) rotate(-15deg);
+    transform: translateX(10%) rotate(-30deg);
   }
 }
 
 @keyframes waveRight {
   0%,
   100% {
-    transform: translateX(10%) rotate(-20deg);
+    transform: translateX(10%) rotate(-50deg);
   }
   50% {
-    transform: translateX(-10%) rotate(20deg);
+    transform: translateX(-10%) rotate(50deg);
   }
 }
 
